@@ -1,17 +1,10 @@
-import { Stack } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import { Layout } from "./components/Layout";
 
 function App() {
   return (
-    <>
-      <h1>ddsds</h1>
-      <Stack direction="horizontal" gap={2}>
-        <Button variant="primary">Button as link</Button>
-        <Button as="a" variant="success">
-          Button as link
-        </Button>
-      </Stack>
-    </>
+    <Layout>
+      <h1>App</h1>
+    </Layout>
   );
 }
 
